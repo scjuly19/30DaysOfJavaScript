@@ -1,0 +1,61 @@
+:root {
+    --yellow: rgb(255, 198, 0)
+}
+
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background: url('./bg.png');
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
+    text-align: center;
+    background-color: var(--yellow);
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.description{
+    color: white;
+}
+.link{
+    color: var(--yellow);
+}
+.challenge-day-card {
+    background: url('./bg-card.png');
+    background-color: white;
+    max-height: 500px;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.challenge-day-card>a{
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+    background-color: var(--yellow);
+}
+.challenge-day-card>p{
+    font-size: 1.5rem;
+}
+
+.learnings_list{
+    text-align: left;
+    font-size: 1.2rem;
+}
