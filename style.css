@@ -30,13 +30,18 @@ main {
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     padding: 10px;
+    justify-content: center;
+    margin-top: 1rem
 }
-.description{
+
+.description {
     color: white;
 }
-.link{
+
+.link {
     color: var(--yellow);
 }
+
 .challenge-day-card {
     background: url('./bg-card.png');
     background-color: white;
@@ -45,17 +50,29 @@ main {
     padding: 10px;
     text-align: center;
 }
-.challenge-day-card>a{
+
+.challenge-day-card>a {
     font-size: 2rem;
     color: black;
     font-weight: 500;
     background-color: var(--yellow);
 }
-.challenge-day-card>p{
+
+.challenge-day-card>p {
     font-size: 1.5rem;
 }
 
-.learnings_list{
+.learnings_list {
     text-align: left;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0px 1rem;
+
+    }
+    main {
+        grid-template-columns: auto;
+    }
 }
