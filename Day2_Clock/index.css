@@ -1,0 +1,43 @@
+html {
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5) no-repeat;
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.clock-face {
+    height: 300px;
+    width: 300px;
+    border: 20px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: rgb(255, 198, 0);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.time-in-words{
+    background-color: rgb(255, 198, 0);
+    padding: 0rem 1rem;
+}
