@@ -3,3 +3,7 @@
 
 ### Day 1 - Drum Kit
 - Building a simple and fun Drum kit which produces a sound on keystroke press.
+### Day 2 - Clock
+- Building a clock using CSS and JavaScript.
+### Day 3- CSS Variables
+- Update CSS variables using JavaScript.
