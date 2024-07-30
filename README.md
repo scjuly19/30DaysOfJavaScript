@@ -7,3 +7,5 @@
 - Building a clock using CSS and JavaScript.
 ### Day 3- CSS Variables
 - Update CSS variables using JavaScript.
+### Day 4- Array Cardio
+- Exercises for fundamental methods of JavaScript
