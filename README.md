@@ -8,4 +8,6 @@
 ### Day 3- CSS Variables
 - Update CSS variables using JavaScript.
 ### Day 4- Array Cardio
-- Exercises for fundamental methods of JavaScript
+- Exercises for fundamental methods of JavaScript.
+### Day 5- Flexbox
+- Making a pictures gallery using flexbox.
