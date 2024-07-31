@@ -39,7 +39,7 @@ html {
     margin: 0;
     padding: 0;
     position: relative;
-    height: 600px;
+    max-height: 600px;
     overflow-y: scroll;
     overflow-x: hidden;
     /*perspective: 20px;*/
