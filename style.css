@@ -25,13 +25,14 @@ h2 {
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
     padding: 10px;
     justify-content: center;
-    margin-top: 1rem
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .description {
