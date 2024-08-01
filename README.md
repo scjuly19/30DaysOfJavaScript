@@ -11,3 +11,8 @@
 - Exercises for fundamental methods of JavaScript.
 ### Day 5- Flexbox
 - Making a pictures gallery using flexbox.
+### Day 6- Ajax fetch with type ahead feature
+- An input component with type ahead feature based on data received from API.
+### Day 7- Array Cardio II
+- Practice array methods like every(), splice(), some(), filter() and findIndex().
+
