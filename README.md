@@ -15,4 +15,6 @@
 - An input component with type ahead feature based on data received from API.
 ### Day 7- Array Cardio II
 - Practice array methods like every(), splice(), some(), filter() and findIndex().
+### Day 8 - HTML Canvas
+- Building a paint like feature with HTML canvas and JS.
 
