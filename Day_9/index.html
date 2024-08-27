@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Day -9 Dev Tools 🛠️</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+
+<body>
+    <h1><em>Psst: Have a look at the JavaScript Console</em> 💁</h1>
+    <script>
+        // Cool Dev Tools Tricks!
+        const people = [
+            { name: 'Wes', age: 22 },
+            { name: 'Kait', age: 33 },
+            { name: 'Irv', age: 39 },
+            { name: 'Lux', age: 21 }
+        ];
+        // Regular
+        console.log('This is a regular console statement')
+
+        // Interpolated
+        console.log('Hey! My name is %s', "Sakshi")
+
+        // Can also be written using JS Literals
+        const name = "Sakshi"
+        console.log(`Hey Again! This is me ${name}`)
+
+        // Styled
+        console.log('%c This is a styled console message', 'font-size:22px;background-color:red;color:yellow;')
+
+        // Warning!
+        console.warn('Oops!! Something is not right!')
+
+        // Error!
+        console.error('Something went wrong!')
+
+        // Assert
+        console.assert(1 === 1, `That's wrong`); // Will not be seen on console because the assertion passes.
+
+        console.assert(1 === 2, `That's wrong`) // Will be seen on console because assertion fails
+
+        // Info
+        console.info('JavaScript is the most popular programming language in 2024!')
+
+        // Grouping
+        people.forEach(person => {
+            console.groupCollapsed(`${person.name}`)
+            console.log(`${person.name} is ${person.age} years old!`)
+            console.groupEnd(`${person.name}`)
+        })
+
+        // View DOM element
+        const h1 = document.querySelector("h1")
+        console.dir(h1)
+
+        // Clearing the console
+        console.clear()
+
+        // Counting
+        console.count("JS")
+        console.count("JS")
+        console.count("JS")
+        console.count("CSS")
+        console.count("JS")
+        console.count("CSS")
+        console.count("CSS")
+
+        // Timing
+        console.time('fetching data')
+        fetch('https://api.github.com/users/scjuly19')
+            .then(data => data.json())
+            .then(data => {
+                console.timeEnd('fetching data');
+                console.log(data)
+            })
+
+        // Table
+        console.table(people)
+    </script>
+</body>
+
+</html>
