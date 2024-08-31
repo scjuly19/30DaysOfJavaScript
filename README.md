@@ -17,4 +17,8 @@
 - Practice array methods like every(), splice(), some(), filter() and findIndex().
 ### Day 8 - HTML Canvas
 - Building a paint like feature with HTML canvas and JS.
+### Day 9 - Dev Tools Tips
+- LEarn about some cool tips and tricks about dev tools.
+### Day 10 - Checkbox with Shift Key
+- Build a checkbox list component which can be marked with holding down the shift key.
 
